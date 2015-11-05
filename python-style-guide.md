@@ -12,7 +12,8 @@ An evolving style guide to writing Python code in a clear and effective manner. 
 - Even more important that Test-Driven Development--*Human-Driven Development*
 - These guidelines will evolve.
 
-## Specific
+
+## In Particular
 
 ### Style
 
