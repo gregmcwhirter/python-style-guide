@@ -60,7 +60,7 @@ def make_complex(*args):
     return dict(**locals())
 ```
 
-In the good code above, x and y are explicitly received from the caller, and an explicit dictionary is returned. The developer using this function knows exactly what to do by reading the first and last lines, which is not the case with the bad example.
+In the good code above, x and y are explicitly received from the caller, and an explicit dictionary is returned. The developer using this function knows exactly what to do by reading the first and last lines, which is not the case with the not so good example.
 
 ##### One statement per line
 While some compound statements such as list comprehensions are allowed and appreciated for their brevity and their expressiveness, it is bad practice to have two disjoint statements on the same line of code.
