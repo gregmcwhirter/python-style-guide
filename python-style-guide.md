@@ -10,7 +10,7 @@ An evolving style guide to writing Python code in a clear and effective manner. 
 - "Explicit is better than implicit" - [PEP 20][]
 - "Readability counts." - [PEP 20][]
 - "Now is better than never." - [PEP 20][]
-- These guidelines are always evolving.
+- These guidelines are always evolving...
 
 
 ## In Particular
