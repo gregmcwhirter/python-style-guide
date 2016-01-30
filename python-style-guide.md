@@ -105,16 +105,19 @@ Import built-in modules first, followed by third-party modules, followed by any 
 
 Next should be authorship information. This information should follow this format:
 
-__author__ = "Rob Knight, Gavin Huttley, and Peter Maxwell"
-__copyright__ = "Copyright 2007, The Cogent Project"
-__credits__ = ["Rob Knight", "Peter Maxwell", "Gavin Huttley",
-                    "Matthew Wakefield"]
+__author__ = "Chuck Rodgers"
+__copyright__ = "Copyright 2016, The Python Project"
+__credits__ = ["Chuck Rodgers"]
 __license__ = "GPL"
 __version__ = "1.0.1"
-__maintainer__ = "Rob Knight"
-__email__ = "rob@spot.colorado.edu"
+__maintainer__ = "Chuck Rodgers"
+__email__ = "chuck@company.com"
 __status__ = "Production"
 Status should typically be one of "Prototype", "Development", or "Production". __maintainer__ should be the person who will fix bugs and make improvements if imported. __credits__ differs from __author__ in that __credits__ includes people who reported bug fixes, made suggestions, etc. but did not actually write the code.
+
+##### Strings: Single vs Double Quotes
+
+Informal rule but seems to be popular. Use double quotes for strings that at some point may become visable to the user and single quotes for strings that are internal to the code itself.
 
 ##### Imports
 
