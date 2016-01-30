@@ -37,7 +37,7 @@ Follow [PEP 8][], whenever sensible.
 - Try to avoid one-letter variables. 
 *Noted exception*: In very short blocks, when the meaning is clearly visible from the immediate context (e.g. loops)
 
-- Avoid the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), or 'I' (uppercase letter eye) as single character variable names.
+- Avoid the characters 'l' (lowercase letter), 'O' (uppercase letter), or 'I' (uppercase letter) as single character variable names.
 - Modules should have short, all-lowercase names. Underscores can be used in the module name if it improves readability. 
 - Class names should normally use the CapWords convention.
 
