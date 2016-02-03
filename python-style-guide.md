@@ -41,6 +41,59 @@ Follow [PEP 8][], whenever sensible.
 - Modules should have short, all-lowercase names. Underscores can be used in the module name if it improves readability. 
 - Class names should normally use the CapWords convention.
 
+```
+Prescriptive: Naming Conventions
+Names to Avoid
+Never use the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), or 'I' (uppercase letter eye) as single character variable names.
+
+In some fonts, these characters are indistinguishable from the numerals one and zero. When tempted to use 'l', use 'L' instead.
+
+Package and Module Names
+Modules should have short, all-lowercase names. Underscores can be used in the module name if it improves readability. Python packages should also have short, all-lowercase names, although the use of underscores is discouraged.
+
+When an extension module written in C or C++ has an accompanying Python module that provides a higher level (e.g. more object oriented) interface, the C/C++ module has a leading underscore (e.g. _socket ).
+
+Class Names
+Class names should normally use the CapWords convention.
+
+The naming convention for functions may be used instead in cases where the interface is documented and used primarily as a callable.
+
+Note that there is a separate convention for builtin names: most builtin names are single words (or two words run together), with the CapWords convention used only for exception names and builtin constants.
+
+Exception Names
+Because exceptions should be classes, the class naming convention applies here. However, you should use the suffix "Error" on your exception names (if the exception actually is an error).
+
+Global Variable Names
+(Let's hope that these variables are meant for use inside one module only.) The conventions are about the same as those for functions.
+
+Modules that are designed for use via from M import * should use the __all__ mechanism to prevent exporting globals, or use the older convention of prefixing such globals with an underscore (which you might want to do to indicate these globals are "module non-public").
+
+Function Names
+Function names should be lowercase, with words separated by underscores as necessary to improve readability.
+
+mixedCase is allowed only in contexts where that's already the prevailing style (e.g. threading.py), to retain backwards compatibility.
+
+Function and method arguments
+Always use self for the first argument to instance methods.
+
+Always use cls for the first argument to class methods.
+
+If a function argument's name clashes with a reserved keyword, it is generally better to append a single trailing underscore rather than use an abbreviation or spelling corruption. Thus class_ is better than clss . (Perhaps better is to avoid such clashes by using a synonym.)
+
+Method Names and Instance Variables
+Use the function naming rules: lowercase with words separated by underscores as necessary to improve readability.
+
+Use one leading underscore only for non-public methods and instance variables.
+
+To avoid name clashes with subclasses, use two leading underscores to invoke Python's name mangling rules.
+
+Python mangles these names with the class name: if class Foo has an attribute named __a , it cannot be accessed by Foo.__a . (An insistent user could still gain access by calling Foo._Foo__a .) Generally, double leading underscores should be used only to avoid name conflicts with attributes in classes designed to be subclassed.
+
+Note: there is some controversy about the use of __names (see below).
+
+Constants
+Constants are usually defined on a module level and written in all capital letters with underscores separating words. Examples include MAX_OVERFLOW and TOTAL .
+```
 
 #### Code Style
 
