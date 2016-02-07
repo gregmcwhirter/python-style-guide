@@ -2,7 +2,6 @@
 
 An evolving style guide to writing Python code in a clear and effective manner. I use these guidelines throughout the projects and coursework I produce.
 
-
 ## Overall Styles
 
 ### General Development Guidelines
