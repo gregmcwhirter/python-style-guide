@@ -1,6 +1,6 @@
 # An Opinionated Style Guide for Python
 
-An evolving style guide to writing Python code in a clear and effective manner. I use these guidelines throughout the projects and coursework I produce.
+An evolving style guide to writing Python code in a clear and effective manner. I follow these guidelines throughout the projects and coursework I produce.
 
 ## Overall Styles
 
@@ -9,7 +9,7 @@ An evolving style guide to writing Python code in a clear and effective manner. 
 - "Explicit is better than implicit" - [PEP 20][]
 - "Readability counts." - [PEP 20][]
 - "Now is better than never." - [PEP 20][]
-- These guidelines are always evolving...
+- These guidelines are continually evolving...
 
 
 ## In Particular
