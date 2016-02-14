@@ -10,7 +10,7 @@ An evolving style guide to writing Python code in a clear and effective manner. 
 - "Readability counts." - [PEP 20][]
 - "Now is better than never." - [PEP 20][]
 - Even more important that Test-Driven Development--*Human-Driven Development*
-- These guidelines will evolve.
+- These guidelines will probably continue to evolve.
 
 ## In Particular
 
