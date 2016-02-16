@@ -138,7 +138,7 @@ print 'one'; print 'two'
 if x == 1: print 'one'
 
 if <complex comparison> and <other complex comparison>:
-    # do something
+    # do something here
 ```
 
 #### Indentation
