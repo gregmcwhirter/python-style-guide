@@ -157,13 +157,13 @@ Import built-in modules first, followed by third-party modules, followed by any 
 
 Next should be authorship information. This information should follow this format:
 
-__author__ = "Chuck Rodgers"
-__copyright__ = "Copyright 2016, The Python Project"
-__credits__ = ["Chuck Rodgers"]
+__author__ = "Buck Rogers"
+__copyright__ = "Copyright 2419, The Python Project"
+__credits__ = ["Buck Rogers"]
 __license__ = "GPL"
 __version__ = "1.0.1"
-__maintainer__ = "Chuck Rodgers"
-__email__ = "chuck@company.com"
+__maintainer__ = "Buck Rogers"
+__email__ = "buck@amazing.com"
 __status__ = "Production"
 Status should typically be one of "Prototype", "Development", or "Production". __maintainer__ should be the person who will fix bugs and make improvements if imported. __credits__ differs from __author__ in that __credits__ includes people who reported bug fixes, made suggestions, etc. but did not actually write the code.
 
