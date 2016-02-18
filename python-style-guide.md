@@ -299,7 +299,7 @@ wiki = (
 
 #### Unit Tests
 
-- Focus on one tiny bit of functionality.
+- Focus on one small bit of functionality.
 - Should be fast, but a slow test is better than no test.
 - It often makes sense to have one testcase class for a single class or model.
 
