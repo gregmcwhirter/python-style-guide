@@ -342,7 +342,6 @@ class TestAUser(unittest.TestCase):
 
 Notice how the testcase and test method read together like "Test A User can write a blog post".
 
-
 ## Inspired by...
 
 - [PEP 20 (The Zen of Python)][PEP 20]
